@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: teal;
+    line-height: 15vh;
+    position: relative;
+}
+header h1{
+    text-align: center;
+    color: white;
+    letter-spacing: 15px;
+    font-size: 1.8rem;
+    text-shadow: 0px 5px 5px black;
+}
+section{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(57, 214, 141);
+}
+.conteiner{
+    width: 50%;
+    height: 400px;
+    padding: 20px 0;
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 5px 5px black;
+}
+.conteiner .msg{
+    text-align: center;
+    font-size: 1.5rem;
+}
+input{
+    margin: 2rem 0 ;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    box-shadow: inset 0 5px 5px rgb(190, 187, 187);
+    font-size: 1.5rem;
+}
+.btn{
+    padding: 10px ;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 2px solid rgb(57, 214, 141);
+    outline: none;
+    font-weight: bold;
+    transition: all 2s;
+    border-radius: 5px;
+}
+.btn:hover , .btn:focus , .btn:active{
+    transform: scale(1.2);
+}
+.hidden{
+    display: none;
+}
